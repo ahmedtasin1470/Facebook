@@ -1,0 +1,424 @@
+@font-face {
+    font-family: Rubik-Black;
+    src: url(../static/Rubik-Black.ttf);
+}
+@font-face {
+    font-family: Rubik-BlackItalic;
+    src: url(../static/Rubik-BlackItalic.ttf);
+}
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(../static/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../static/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../static/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: Rubik-Light;
+    src: url(../static/Rubik-Light.ttf);
+}
+@font-face {
+    font-family: Rubik-SemiBold;
+    src: url(../static/Rubik-SemiBold.ttf);
+}
+:root{
+    --primary: #0865CA;
+    --secondary: #F0F2F5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.justify-space{
+    justify-content: space-between;
+}
+
+.mainSection div{
+    margin-bottom: 1rem;
+}
+.mainSection .sideBar{
+    background: white;
+    padding: 10px;
+    height: auto;
+    width: 400px;
+    margin-right: 0;
+}
+.topLeftRightIcone{
+    background: #E4E6EB;
+    padding: 9px 9px;
+    border-radius: 100px;
+    color: #1D1F23;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.allGropuList > p{
+    font-family: Rubik-Regular;
+    margin-bottom: 10px;
+}
+.singleGroupBox{
+    padding-top: 12px;
+    padding-left: 18px;
+    border-radius: 10px;
+    margin-bottom: -10px !important;
+}
+.singleGroupBox:hover{
+    background: var(--secondary);
+}
+.creatNewGroup{
+    background: #E7F3FF;
+    padding: 12px;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+}
+.creatNewGroup:hover{
+    background: #ccd8e4;
+}
+.bodyContent{
+    width: 30%;
+    margin-left: 12%;
+    margin-top: 4rem;
+    padding: 10px;
+    height: fit-content;
+}
+.singlePostForGrpSuggest{
+    background: white;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bodyContent > span{
+    color: black;
+}
+.postHeaderArea .postImg{
+    /* width: 58px; */
+    margin-left: 6px;
+}
+.postHeaderArea .groupImgBox img{
+    width: 10%;
+    border-radius: 9px;
+    height: 48px;
+    position: relative;
+}
+.postHeaderArea .groupImgBoxForPost .postUserImg{
+    position: relative;
+    bottom: 24px;
+    left: 29px;
+}
+.postHeaderArea .groupImgBoxForPost .postUserImg img{
+    border-radius: 100px;
+    width: 32%;
+    /* padding: 10px 12px; */
+}
+.groupImgBoxForPost{
+    width: 75px;
+    margin-left: -7px;
+}
+.groupImgBoxForPost > img{
+    width: 65%;
+    border-radius: 9px;
+    height: 44px;
+}
+.postHeaderArea {
+    height: 35px;
+    padding: 0 10px;
+}
+.groupImgBoxForPost {
+    margin-right: -13px;
+}
+.userInfoForGroupPost {
+    width: 77%;
+}
+.userInfoForGroupPost span{
+    font-size: 11.1px;
+    margin-left: 5px;
+}
+.userInfoForGroupPost i{
+    color: #F34460;
+}
+.userInfoForGroupPost .grpName {
+    font-family: 'Rubik-Medium';
+    /* font-weight: bold; */
+    margin-left: 8px;
+}
+.rightMenuIcon{
+    position: relative;
+    left: 10%;
+    color: gray;
+    top: 23%;
+}
+.flexcol{
+    flex-direction: column;
+}
+.userInfoForGroupPost .time{
+    /* color: black; */
+    margin-top: -21px;
+}
+.userInfoForGroupPost .time i {
+    color: gray;
+}
+.postImgBox{
+margin-top: 3rem;
+/* padding: 0 -13px !important; */
+/* position: relative;
+left: -9px;
+width: 104%; */
+}
+.postLikeCommentBox.flex.justfySpace {
+    justify-content: space-around;
+    padding: 13px 0px 3px 0px;
+    font-size: 20px;
+}
+.postLikeCommentBox i{
+    color: gray;
+}
+.totalCountBox{
+    padding: 0 5px;
+}
+.totalCountBox > i{
+    color: var(--primary);
+    margin-right: 10px;
+}
+.totalCountBox span{
+    font-family: 'Times New Roman';
+}
+
+
+
+
+/* --------------------------------------------------------- */
+
+
+
+.singleGroupBoxForGroup {
+    width: 100%;
+}
+.groupHeaderBox {
+    background: linear-gradient(to top, white 50%, #455D84 100%);
+}
+.headerContentForGroup{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-left: -49px;
+}
+.imgForGroupS{
+    width: 66%;
+    margin: auto;
+    /* overflow: hidden; */
+}
+.imgForGroupS img {
+    width: 100%;
+    height: 275px;
+}
+
+.imgFooterForGroup {
+    background: #814DE7;
+    padding: 10px 18px;
+    margin-top: -4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.imgFooterForGroup span {
+    color: white;
+    font-family: 'Rubik-Medium';
+    /* padding: 60px 22px; */
+}
+.miniContainerForGroup{
+    width: 809px;
+    margin: auto;
+}
+.groupHeaderTitle .title h1{
+    font-family: Rubik-Bold;
+    font-size: 18px;
+    width: 308px;
+}
+.groupHeaderTitle .title i{
+    color: #656B74;
+}
+.groupHeaderTitle .title p{
+    color: #747087;
+}
+.groupHeaderTitle .groupInviteBtn button{
+    padding: 10px 12px;
+    background: #814DE7;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px
+}
+.groupHeaderTitle .groupInviteBtn button:hover{
+    background: #6f50ac;
+}
+.groupHeaderTitle .groupInviteBtn button i{
+    font-size: 11.1px;
+    margin-right: 1.7px;
+}
+.groupHeaderTitle .groupInviteBtn button{
+    font-size: 13px;
+    font-family: Rubik-Regular;
+}
+a{
+    text-decoration: none;
+}
+.mincontainerContent {
+    width: 100%;
+}
+
+
+
+.groupMenuBoxForHeader .menu a{
+    margin-left: 15px;
+    font-family: Rubik-Medium;
+    color: #8D8F92;
+    font-size: 14.10px;
+    transtion: .3s;
+}
+.groupMenuBoxForHeader .menu a:hover{
+    color: #bdc1c5;
+    transtion: .3s;
+}
+.groupMenuBoxForHeader .menu a:first-child{
+    margin: 0;
+}
+
+.rightBoxBtn .searchBoxForGrpHeaderMenu, .menuBoxForGrpHeaderMenu{
+    background: #DCDEE3;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #323437;
+    cursor: pointer;
+    transition: .3s;
+}
+.rightBoxBtn .searchBoxForGrpHeaderMenu{
+    margin-right: 10px;
+}
+.rightBoxBtn .searchBoxForGrpHeaderMenu:hover{
+    background: #C6D6EE;
+    transition: .3s;
+}
+.rightBoxBtn .searchBoxForGrpHeaderMenu:hover i{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.rightBoxBtn .menuBoxForGrpHeaderMenu:hover{
+    background: #C6D6EE;
+    transition: .3s;
+}
+.rightBoxBtn .menuBoxForGrpHeaderMenu:hover i{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.groupContentForBody{
+    width: 62.5%;
+    margin: auto;
+    /* position: relative; */
+    margin-left: 195px;
+    margin-top: 16px;
+    display: flex;
+}
+.leftSideForGroupContent{
+    /* background: white; */
+    width: 57%;
+    margin-right: 2rem;
+    padding: 10px;
+}
+.rightSideForGroupContent{
+    background: white;
+    width: 40%;
+    /* height: fit-content; */
+    margin-top: 11px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 7px #e2e3e5;
+    padding: 10px 10px 10px 10px;
+    max-height: 222px !important;
+    overflow: hidden;
+}
+
+.rightSideForGroupContent .contentForGrpAbout p {
+    margin-bottom: 5px;
+    line-height: 15px;
+}
+.rightSideForGroupContent .aboutBoxForGrup h3{
+    margin-bottom: 6px;
+}
+
+.rightSideForGroupContent aboutBoxForGrup h3 {
+}
+.groupContentForBody .leftSideForGroupContent .crearNewPostForGroup .userPostArea .userImg{
+    margin-right: 10px;
+    width: 39px;
+}
+.groupContentForBody .leftSideForGroupContent .crearNewPostForGroup .userPostArea .creatPostAreaForLeft{
+    width: 100%;
+}
+.groupContentForBody .leftSideForGroupContent .crearNewPostForGroup .userPostArea .creatPostAreaForLeft input{
+    border: 0;
+    outline: none;
+    background: var(--secondary);
+    padding: 10px;
+    border-radius: 100px;
+    font-family: Rubik-Regular;
+    width: 100%;
+    transition: .3s;
+}
+.groupContentForBody .leftSideForGroupContent .crearNewPostForGroup .userPostArea .creatPostAreaForLeft input:hover{
+    background: #babcbf;
+    transition: .3s;
+}
+.crearNewPostForGroup {
+    background: white;
+    /* margin: 0; */
+    padding: 10px;
+    /* margin-bottom: 0 !important; */
+    box-shadow: 0px 1px 7px #e2e3e5;
+    border-radius: 10px;
+}
+.iconeBoxForGroupNewPost{
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.iconeBoxForGroupNewPost i{
+    font-size: 21px;
+}
+.iconeBoxForGroupNewPost .fa-user-tag{
+    color: var(--primary);
+}
+.iconeBoxForGroupNewPost .fa-laugh{
+    color:#F8C141;
+}
+.iconeBoxForGroupNewPost .fa-images{
+    color: green;
+}
+.n2Grp{
+    background: #FC5776 !important;
+}
+.n2Grp:hover{
+    background: #df5e75 !important;
+}
+.n3Grp{
+    background: var(--primary) !important;
+}
+.n3Grp:hover{
+    background: #0955a7 !important;
+}

@@ -1,0 +1,249 @@
+@font-face {
+    font-family: Rubik-Black;
+    src: url(../static/Rubik-Black.ttf);
+}
+@font-face {
+    font-family: Rubik-BlackItalic;
+    src: url(../static/Rubik-BlackItalic.ttf);
+}
+@font-face {
+    font-family: Rubik-Bold;
+    src: url(../static/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family: Rubik-Regular;
+    src: url(../static/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: Rubik-Medium;
+    src: url(../static/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: Rubik-Light;
+    src: url(../static/Rubik-Light.ttf);
+}
+@font-face {
+    font-family: Rubik-SemiBold;
+    src: url(../static/Rubik-SemiBold.ttf);
+}
+:root{
+    --primary: #0865CA;
+    --secondary: #F0F2F5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.justify-space{
+    justify-content: space-between;
+}
+
+ /* ##################  Start  ##################### */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-xl{
+    background: white;
+    box-shadow: 0px 2px 5px  -2px #D9DBDE;
+}
+.home a i{
+    color: gray !important;
+}
+.flage a i{
+    color: var(--primary);
+}
+
+.mainSection{
+    display: flex;
+    /* grid-template-columns: 24% auto 17%; */
+}
+.align-center{
+    align-items: center;
+}
+h1, h2, h3{
+    font-family: Rubik-Regular;
+    color: #050505;
+}
+span{
+    color: #A8B1C9;
+}
+
+/* _____________________________________Left Slider____________________________ */
+.mainSection div{
+    margin-bottom: 1rem;
+}
+.mainSection .sideBar{
+    background: white;
+    padding: 10px;
+    height: auto;
+    width: 331px;
+    margin-right: 61px;
+}
+.topLeftRightIcone{
+    background: #E4E6EB;
+    padding: 9px 9px;
+    border-radius: 100px;
+    color: #1D1F23;
+    font-size: 20px;
+}
+
+.totalPage .fa-flag{
+    background-color: var(--primary);
+    color: white;
+}
+.pageImg img{
+    width: 100%;
+    border-radius: 100%;
+}
+.pageImg {
+    width: 31px;
+}
+.pageInfo{
+    margin-left: 4px;
+}
+.pageInfo i{
+    color: var(--primary);
+    font-size: 10px;
+}
+.pageInfo h4{
+    margin-bottom: 2px;
+}
+.pageInfo span{
+    font-size: 10px;
+    font-family: arial;
+}
+.creatNewPages{
+    background: #E7F3FF;
+    padding: 12px;
+    width: 80%;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+}
+.creatNewPages:hover{
+    background: #ccd8e4;
+}
+.creatNewPages h4{
+    color: var(--primary) !important;
+}
+.creatNewPages i{
+    margin-right: 5px;
+}
+.pageLeftMenu div{
+    padding: 10px 0px 10px 5px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.pageLeftMenu div:hover{
+    background: #EAF3FF;
+    transition: .3s;
+}
+.pageLeftMenu .fa-user-plus{
+    padding: 10px 8px;
+}
+.pageLeftMenu h4{
+    margin-left: 10px;
+}
+.pagrHead{
+    background: #EAF3FF;
+    padding: 10px 0px 10px 5px;
+    border-radius: 10px;
+}
+.pagrHead h4{
+    margin-left: 12px;
+}
+.singlePageBox{
+    padding: 10px 0px 0px 5px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.singlePageBox:hover{
+    background: #EAF3FF;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* _____________________________________Body content____________________________ */
+
+.bodyContent{
+    /* background: white; */
+    margin-left: 184px;
+    padding: 10px;
+    width: 50%;
+    /* height: fit-content; */
+}
+.singleManagePageBox{
+    background: white;
+    padding: 20px 13px 0px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px #CFD1D4;
+    margin-bottom: 8px;
+    transition: .3s;
+}
+.singleManagePageBox:hover{
+    background: #CFD1D4;
+    transition: .3s;
+    box-shadow: 0px 2px 4px white;
+}
+.singleManagePageBox:last-child{
+    margin-bottom: 0;
+}
+.singleManagePageBox .userImg{
+    margin-right: 6px;
+    width: 34px;
+}
+.singleManagePageBox h4{
+    font-size: 13px;
+    margin-bottom: 1px;
+}
+.singleManagePageBox span{
+    font-family: Rubik-Light;
+    font-size: 11px;
+    color: gray;
+    word-spacing: -1px;
+}
+
+.notificationBox{
+    margin-top: -11px;
+}
+
+.notificationBox.flex span {
+    color: gray;
+    font-family: 'Rubik-Regular';
+    position: relative;
+    top: -2px;
+}
+.notificationBox i{
+    font-size: 15px;
+}
+.notificationBox .notification{
+    margin-right: 10px;
+}
+.notificationBox .notification i, .notificationBox .messenge i{
+    margin-right: 3px;
+}
